@@ -11,6 +11,7 @@
 		BD7238B5255B6A9F000234C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7238B4255B6A9F000234C4 /* ContentView.swift */; };
 		BD7238B7255B6AA0000234C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD7238B6255B6AA0000234C4 /* Assets.xcassets */; };
 		BD7238BA255B6AA0000234C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD7238B9255B6AA0000234C4 /* Preview Assets.xcassets */; };
+		BD7238C4255B74FF000234C4 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7238C3255B74FF000234C4 /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		BD7238B6255B6AA0000234C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD7238B9255B6AA0000234C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD7238BB255B6AA0000234C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD7238C3255B74FF000234C4 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		BD7238B1255B6A9F000234C4 /* Travel Discovery */ = {
 			isa = PBXGroup;
 			children = (
+				BD7238C2255B74DB000234C4 /* Model */,
 				BD7238B2255B6A9F000234C4 /* Travel_DiscoveryApp.swift */,
 				BD7238B4255B6A9F000234C4 /* ContentView.swift */,
 				BD7238B6255B6AA0000234C4 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				BD7238B9255B6AA0000234C4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD7238C2255B74DB000234C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD7238C3255B74FF000234C4 /* Category.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				BD7238B5255B6A9F000234C4 /* ContentView.swift in Sources */,
 				BD7238B3255B6A9F000234C4 /* Travel_DiscoveryApp.swift in Sources */,
+				BD7238C4255B74FF000234C4 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
